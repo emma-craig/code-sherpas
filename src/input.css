@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .text-card {
+        @apply flex items-center w-80 min-h-72 overflow-hidden
+    }
+    .img-card {
+        @apply w-80 min-h-72 overflow-hidden rounded-lg pt-4 pl-4 pb-0
+    }
+    .container-card {
+        @apply flex flex-col md:flex-row justify-center md:gap-8
+    }
+}

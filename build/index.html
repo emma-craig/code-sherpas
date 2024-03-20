@@ -5,7 +5,7 @@
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Code Sherpas Test 1</title>
     <link
       rel="stylesheet"
       href="css/style.css" />
@@ -18,12 +18,13 @@
   </head>
 
   <body
-    class="pb-40 mb-80 h-14 p-4 gap-8 text-white bg-gradient-to-r from-indigo-950 from-80% to-blue-950 flex items-center flex-col">
-    <div class="mb-80 flex items-center flex-col gap-4">
+    class="flex items-center flex-col mb-8 p-4 gap-8 text-white bg-gradient-to-r from-indigo-950 from-80% to-blue-950">
+    <div class="flex items-center flex-col gap-4">
       <section
         class="text-opacity-80 max-w-[320px] max-h-[212px] flex flex-col mb-10 gap-3">
-        <div
-          class="font-poppins text-2xl font-bold leading-tight text-center">Sed ut perspiciatis unde omnis iste</div>
+        <div class="font-poppins text-2xl font-bold leading-tight text-center">
+          Sed ut perspiciatis unde omnis iste
+        </div>
         <div class="font-inter text-xs text-center">
           Meet the modern standard for public facing documentation. Beautiful
           out of the box, easy to maintain, and optimized for user engagement.
@@ -32,9 +33,8 @@
 
       <section class="flex flex-col gap-2 md:gap-10">
         <!-- Div 1 -->
-        <div class="flex flex-col md:flex-row justify-center md:gap-8">
-          <div
-            class="w-80 min-h-72 overflow-hidden order-2 md:order-1 flex items-center">
+        <div class="container-card">
+          <div class="text-card order-2 md:order-1">
             <my-text-card>
               <p
                 slot="item-header"
@@ -70,7 +70,7 @@
           </div>
 
           <div
-            class="order-1 md:order-2 w-80 min-h-72 overflow-hidden rounded-lg pt-4 pl-4 pb-0 bg-gradient-to-br from-purple-600 via-yellow-400 to-red-500 shadow-img-1">
+            class="order-1 md:order-2 img-card bg-gradient-to-br from-purple-600 via-yellow-400 to-red-500 shadow-img-1">
             <my-image-card>
               <img
                 slot="item-img"
@@ -80,9 +80,9 @@
         </div>
 
         <!-- Div 2 -->
-        <div class="flex flex-col md:flex-row justify-center md:gap-8">
+        <div class="container-card">
           <div
-            class="w-80 min-h-72 overflow-hidden rounded-lg pt-4 pl-4 pb-0 bg-gradient-to-br from-white via-blue-900 to-indigo-950 shadow-img-2">
+            class="img-card bg-gradient-to-br from-white via-blue-900 to-indigo-950 shadow-img-2">
             <my-image-card>
               <img
                 slot="item-img"
@@ -90,7 +90,7 @@
             </my-image-card>
           </div>
 
-          <div class="w-80 min-h-72 overflow-hidden flex items-center">
+          <div class="text-card items-center">
             <my-text-card>
               <p
                 slot="item-header"
@@ -127,9 +127,8 @@
         </div>
 
         <!-- Div 3 -->
-        <div class="flex flex-col md:flex-row justify-center md:gap-8">
-          <div
-            class="w-80 overflow-hidden min-h-72 order-2 md:order-1 flex items-center">
+        <div class="container-card">
+          <div class="text-card order-2 md:order-1">
             <my-text-card>
               <p
                 slot="item-header"
@@ -165,7 +164,7 @@
           </div>
 
           <div
-            class="order-1 md:order-2 w-80 min-h-72 overflow-hidden rounded-lg pt-4 pl-4 pb-0 bg-gradient-to-r from-blue-400 via-purple-600 to-pink-500 shadow-img-3">
+            class="order-1 md:order-2 img-card bg-gradient-to-r from-blue-400 via-purple-600 to-pink-500 shadow-img-3">
             <my-image-card>
               <img
                 slot="item-img"
@@ -173,7 +172,6 @@
             </my-image-card>
           </div>
         </div>
-        <div h-30></div>
       </section>
     </div>
   </body>
