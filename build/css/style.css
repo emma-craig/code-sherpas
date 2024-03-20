@@ -571,8 +571,14 @@ video {
 @media (min-width: 768px) {
   .container-card {
     flex-direction: row;
-    gap: 2rem;
+    gap: 6rem;
   }
+}
+
+.list-text {
+  margin-left: -1.5rem;
+  font-size: 10px;
+  line-height: 1.5;
 }
 
 .visible {
@@ -671,6 +677,10 @@ video {
   gap: 2.5rem;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .border {
   border-width: 1px;
 }
@@ -746,6 +756,10 @@ video {
   padding: 2rem;
 }
 
+.pr-20 {
+  padding-right: 5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -753,6 +767,11 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-sm {
@@ -767,6 +786,14 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.leading-loose {
+  line-height: 2;
+}
+
+.leading-normal {
+  line-height: 1.5;
 }
 
 .leading-relaxed {

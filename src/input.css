@@ -10,6 +10,9 @@
         @apply w-80 min-h-72 overflow-hidden rounded-3xl pt-8 pl-8 pb-0
     }
     .container-card {
-        @apply flex flex-col md:flex-row justify-center md:gap-8
+        @apply flex flex-col md:flex-row justify-center md:gap-24
+    }
+    .list-text {
+        @apply text-[10px] -ml-6 leading-normal
     }
 }
